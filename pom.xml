@@ -15,6 +15,14 @@
         <maven.compiler.release>7</maven.compiler.release>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-numbers-primes</artifactId>
+            <version>1.1</version>
+        </dependency>
+    </dependencies>
+
     <build>
         <plugins>
             <plugin>
@@ -24,11 +32,6 @@
                 <configuration>
                     <mainClass>is.hi.cs.helloworld.App</mainClass>
                 </configuration>
-                <dependency>
-                    <groupId>org.apache.commons</groupId>
-                    <artifactId>commons-numbers-primes</artifactId>
-                    <version>1.1</version>
-                </dependency>
             </plugin>
         </plugins>
     </build>
